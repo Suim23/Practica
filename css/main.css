@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body */
+body {
+    background-color: rgb(195, 159, 230);
+    padding: 2rem;
+  
+    
+}
+
+/*menu de navegacion flexbox*/
+
+.header{
+    background-color: #2d3047;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+
+
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+
+    
+
+}
+.menu { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    gap: 12rem;
+
+    
+ 
+
+}
+.logo {
+   
+    width: 200px;
+    
+    
+}
+
+.menu-item{
+    display: flex;
+    color: white;
+    gap: 2rem;
+    
+    
+    
+
+
+}
+a{
+    text-decoration: none;
+    color: white;
+     border-bottom: 6px solid transparent;
+    border-bottom-color: red; 
+    font-family: cursive;
+    
+}
+
+/*grid productos */
+
+.contenedor{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+
+
+
+}
+
+.imgprodcutos{
+    height: 400px;
+}
+
+.producto-1{
+    
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+
+
+}
+
+iframe{
+    display: block;
+    margin: auto;
+}
+
+form{
+    margin-top: 20px;
+
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+
+
+}
+/*titulos*/
+h1{
+    text-align: center;
+    text-decoration: underline;
+    margin: 1rem 0;
+}
+
+h3 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 1rem;
+    text-decoration: underline;
+    background-color: aqua;
+}
+
+h2 {
+    text-align: end;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 3rem;
+    background-color: aquamarine;
+    
+}
+
+/*celu*/
+
+@media( max-width:600px){ 
+
+
+.header{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: none;
+    flex-direction: column;
+}
+.menu {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+
+
+.imgprodcutos{
+    height: 250px;
+    width: 250px;
+    
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
